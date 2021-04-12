@@ -33,6 +33,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           sysctl machdep.cpu.brand_string
-          sysctlhw.physicalcpu
-          sysctlhw.logicalcpu
+          sysctl hw.physicalcpu
+          sysctl hw.logicalcpu
           
